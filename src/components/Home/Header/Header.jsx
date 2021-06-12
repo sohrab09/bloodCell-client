@@ -10,8 +10,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto navbar m-3 p-3">
-                        <Nav.Link to="/home">HOME</Nav.Link>
-                        <NavDropdown title="DONOR LIST" id="basic-nav-dropdown">
+                        <Nav.Link to="/home">Home</Nav.Link>
+                        <NavDropdown title="Donor List" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#A+">A+</NavDropdown.Item>
                             <NavDropdown.Item href="#A-">A-</NavDropdown.Item>
                             <NavDropdown.Item href="#B+">B+</NavDropdown.Item>
@@ -22,7 +22,7 @@ const Header = () => {
                             <NavDropdown.Item href="#AB-">AB-</NavDropdown.Item>
                             <NavDropdown.Divider />
                         </NavDropdown>
-                        <NavDropdown title="BE A DONOR" id="basic-nav-dropdown">
+                        <NavDropdown title="Be a Donor" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#A+">A+</NavDropdown.Item>
                             <NavDropdown.Item href="#A-">A-</NavDropdown.Item>
                             <NavDropdown.Item href="#B+">B+</NavDropdown.Item>
@@ -33,9 +33,9 @@ const Header = () => {
                             <NavDropdown.Item href="#AB-">AB-</NavDropdown.Item>
                             <NavDropdown.Divider />
                         </NavDropdown>
-                        <Nav.Link to="/work">WORK</Nav.Link>
-                        <Nav.Link to="/rules">RULES</Nav.Link>
-                        <Nav.Link to="/blog">BLOG</Nav.Link>
+                        <Nav.Link to="/work">Work</Nav.Link>
+                        <Nav.Link to="/rules">Rules</Nav.Link>
+                        <Nav.Link to="/blog">Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,0 +1,20 @@
+.feature h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.feature h3 {
+    text-align: center;
+    color: red;
+}

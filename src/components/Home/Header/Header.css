@@ -1,10 +1,11 @@
 .logo {
-    width: 30%;
-    margin-right: 15px;
+    width: 45%;
+    padding-left: 35px;
   }
 
 .navbar{
-  font-size: 20px;
-  text-shadow: 1px 1px 5px rgba(255, 0, 0, 0.644);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  justify-content: space-between;
 }
   
