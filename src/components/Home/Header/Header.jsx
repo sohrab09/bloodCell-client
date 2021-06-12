@@ -33,9 +33,8 @@ const Header = () => {
                             <NavDropdown.Item href="#AB-">AB-</NavDropdown.Item>
                             <NavDropdown.Divider />
                         </NavDropdown>
-                        <Nav.Link to="/work">Work</Nav.Link>
-                        <Nav.Link to="/rules">Rules</Nav.Link>
-                        <Nav.Link to="/blog">Blog</Nav.Link>
+                        <Nav.Link to="/work">Contact</Nav.Link>
+                        <Nav.Link to="/work">About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
