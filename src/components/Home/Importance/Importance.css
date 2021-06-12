@@ -16,3 +16,19 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.div-1{
+    border-left: 2px dotted red;
+    border-right: 2px dotted red;
+    border-top: 2px dotted red;
+    border-bottom: 2px dotted red;
+    border-radius: 10px;
+}
+
+.div-2{
+    border-right: 2px dotted red;
+    border-left: 2px dotted red;
+    border-top: 2px dotted red;
+    border-bottom: 2px dotted red;
+    border-radius: 10px;
+}

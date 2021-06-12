@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+.Introduction {
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    color: rgb(156, 0, 0);
+}
