@@ -1,6 +1,6 @@
 import React from 'react';
 import './Introduction.css';
-import feature from '../../Image/feature.jpg';
+import feature from '../../Image/feature.png';
 
 const Introduction = () => {
     return (

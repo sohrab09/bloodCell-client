@@ -1,0 +1,8 @@
+.Banner {
+    overflow: hidden;
+}
+
+.Banner img {
+    width: 70%;
+    padding-left: 30%;
+}
