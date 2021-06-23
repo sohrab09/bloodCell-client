@@ -4,8 +4,8 @@ import contact from '../../Image/contact.png';
 
 const Contact = () => {
     return (
-        <div className="contact mt-5">
-            <form>
+        <div id="contact" className="contact mt-5">
+            <form className="contactForm">
                 <div>
                     <img src={contact} alt="icon"/>
                 </div>

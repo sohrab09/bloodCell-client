@@ -12,7 +12,7 @@
     align-items:center;
   }
   
-  form {
+  .contactForm {
     padding-left:25px;
     padding-right:25px;
     padding-top:60px;
@@ -23,7 +23,7 @@
     z-index:1;
   }
   
-  form > div{
+  .contactForm > div{
     position:absolute;
     top:0;
     left:50%;
@@ -35,13 +35,13 @@
     text-align:center;
   }
   
-  form > div > img{
+  .contactForm > div > img{
     filter:invert(1);
     width:100px;
   }
   
-  form > input,
-  form > textarea {
+  .contactForm > input,
+  .contactForm > textarea {
     padding: 12px;
     margin: 12px auto;
     border: 1px solid #ccc;
@@ -52,12 +52,12 @@
     width: 70vw;
   }
   
-  form > textarea{
+  .contactForm > textarea{
     height:100px;
     resize:none;
   }
   
-  form > input[type="submit"] {
+  .contactForm > input[type="submit"] {
     max-width: 20vw;
     padding-left: 1%;
     padding-right: 1%;
@@ -65,7 +65,7 @@
     transition: 0.35s;
   }
   
-  form > input[type="submit"]:hover {
+  .contactForm > input[type="submit"]:hover {
     background-color: rgb(97, 97, 97);
   }
   
