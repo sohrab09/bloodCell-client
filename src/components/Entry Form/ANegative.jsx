@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 import './CommonStyle.css';
 
-const APositive = () => {
+const ANegative = () => {
 
-    const [aPositive, setAPositive] = useState({});
+    const [ANegative, setANegative] = useState({});
 
     const handleBlur = (e) => {
-        const addAPositive = { ...aPositive };
-        addAPositive[e.target.name] = e.target.value;
-        setAPositive(addAPositive);
+        const addANegative = { ...ANegative };
+        addANegative[e.target.name] = e.target.value;
+        setANegative(addANegative);
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
         const formData = new FormData();
-        formData.append('name', aPositive.name);
-        formData.append('mobile', aPositive.mobile);
-        formData.append('address', aPositive.address);
-        formData.append('group', aPositive.group);
-        formData.append('occupation', aPositive.occupation)
+        formData.append('name', ANegative.name);
+        formData.append('mobile', ANegative.mobile);
+        formData.append('address', ANegative.address);
+        formData.append('group', ANegative.group);
+        formData.append('occupation', ANegative.occupation)
         fetch("http://localhost:5000/aNegative", {
             method: "POST",
             body: formData,
@@ -41,7 +41,7 @@ const APositive = () => {
                     <div className="blackboard">
                         <div className="DonorForm">
                             <p>
-                                <label className="mt-3">A (+) Negative Blood Donor Form</label>
+                                <label className="mt-3">A (-) Negative Blood Donor Form</label>
                             </p>
                             <p>
                                 <label>Name: </label>
@@ -74,4 +74,4 @@ const APositive = () => {
     );
 };
 
-export default APositive;
+export default ANegative;

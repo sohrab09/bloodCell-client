@@ -22,12 +22,12 @@ function App() {
           </Route>
           <Route path="/aPositive"> <APositive /> </Route>
           <Route path="/aNegative"> <ANegative /> </Route>
-          <Route path="/bpositive"> <BPositive /> </Route>
-          <Route path="/bnegative"> <BNegative /> </Route>
-          <Route path="/opositive"> <OPositive /> </Route>
-          <Route path="/onegative"> <ONegative /> </Route>
-          <Route path="/abpositive"> <ABPositive /> </Route>
-          <Route path="/abnegative"> <ABNegative /> </Route>
+          <Route path="/bPositive"> <BPositive /> </Route>
+          <Route path="/bNegative"> <BNegative /> </Route>
+          <Route path="/oPositive"> <OPositive /> </Route>
+          <Route path="/oNegative"> <ONegative /> </Route>
+          <Route path="/abPositive"> <ABPositive /> </Route>
+          <Route path="/abNegative"> <ABNegative /> </Route>
         </Switch>
       </Router>
     </div>
