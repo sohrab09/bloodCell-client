@@ -30,15 +30,13 @@ const Header = () => {
                                 <Nav.Link as={Link} to="/abPositive" target="_blank">AB+</Nav.Link>
                                 <Nav.Link as={Link} to="/abNegative" target="_blank">AB-</Nav.Link>
                             </NavDropdown>
+                            
                             <NavDropdown title="Donor List" id="basic-nav-dropdown">
-                                <Nav.Link href="#A+">A+</Nav.Link>
-                                <Nav.Link href="#A-">A-</Nav.Link>
-                                <Nav.Link href="#B+">B+</Nav.Link>
-                                <Nav.Link href="#B-">B-</Nav.Link>
-                                <Nav.Link href="#O+">O+</Nav.Link>
-                                <Nav.Link href="#O-">O-</Nav.Link>
-                                <Nav.Link href="#AB+">AB+</Nav.Link>
-                                <Nav.Link href="#AB-">AB-</Nav.Link>
+                                <Nav.Link as={Link} to="/getAPositive" target="_blank">A+</Nav.Link>
+                                <Nav.Link as={Link} to="/getANegative" target="_blank">A-</Nav.Link>
+                                <Nav.Link as={Link} to="/getBPositive" target="_blank">B+</Nav.Link>
+                                <Nav.Link as={Link} to="/getOPositive" target="_blank">O+</Nav.Link>
+                                <Nav.Link as={Link} to="/getABPositive" target="_blank">AB+</Nav.Link>
                             </NavDropdown>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>

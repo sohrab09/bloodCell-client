@@ -19,7 +19,7 @@ const APositive = () => {
         formData.append('address', aPositive.address);
         formData.append('group', aPositive.group);
         formData.append('occupation', aPositive.occupation)
-        fetch("http://localhost:5000/aPositive", {
+        fetch("http://localhost:5000/addAPositive", {
             method: "POST",
             body: formData,
         })

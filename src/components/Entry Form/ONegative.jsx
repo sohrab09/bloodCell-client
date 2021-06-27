@@ -19,7 +19,7 @@ const ONegative = () => {
         formData.append('address', ONegative.address);
         formData.append('group', ONegative.group);
         formData.append('occupation', ONegative.occupation)
-        fetch("http://localhost:5000/oNegative", {
+        fetch("http://localhost:5000/addONegative", {
             method: "POST",
             body: formData,
         })

@@ -19,7 +19,7 @@ const ABNegative = () => {
         formData.append('address', ABNegative.address);
         formData.append('group', ABNegative.group);
         formData.append('occupation', ABNegative.occupation)
-        fetch("http://localhost:5000/abNegative", {
+        fetch("http://localhost:5000/addABNegative", {
             method: "POST",
             body: formData,
         })
