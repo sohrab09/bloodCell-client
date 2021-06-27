@@ -35,6 +35,7 @@ const Header = () => {
                                 <Nav.Link as={Link} to="/getAPositive" target="_blank">A+</Nav.Link>
                                 <Nav.Link as={Link} to="/getANegative" target="_blank">A-</Nav.Link>
                                 <Nav.Link as={Link} to="/getBPositive" target="_blank">B+</Nav.Link>
+                                <Nav.Link as={Link} to="/getBNegative" target="_blank">B-</Nav.Link>
                                 <Nav.Link as={Link} to="/getOPositive" target="_blank">O+</Nav.Link>
                                 <Nav.Link as={Link} to="/getABPositive" target="_blank">AB+</Nav.Link>
                             </NavDropdown>

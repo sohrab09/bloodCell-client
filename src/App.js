@@ -20,6 +20,7 @@ import ABNegative from './components/Entry Form/ABNegative';
 import APositiveData from './components/Show Data/APositiveData';
 import ANegativeData from './components/Show Data/ANegativeData';
 import BPositiveData from './components/Show Data/BPositiveData';
+import BNegativeData from './components/Show Data/BNegativeData';
 import OPositiveData from './components/Show Data/OPositiveData';
 import ABPositiveData from './components/Show Data/ABPositiveData';
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/getAPositive"> <APositiveData /> </Route>
           <Route path="/getANegative"> <ANegativeData /> </Route>
           <Route path="/getBPositive"> <BPositiveData /> </Route>
+          <Route path="/getBNegative"> <BNegativeData /> </Route>
           <Route path="/getOPositive"> <OPositiveData /> </Route>
           <Route path="/getABPositive"> <ABPositiveData /> </Route>
 
