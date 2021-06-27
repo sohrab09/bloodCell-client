@@ -6,7 +6,7 @@ const BNegative = () => {
 
     const [getBNegative, setGetBNegative] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/getBNegative")
+        fetch("https://agile-taiga-79684.herokuapp.com/getBNegative")
             .then(res => res.json())
             .then(data => {
                 console.log(data)

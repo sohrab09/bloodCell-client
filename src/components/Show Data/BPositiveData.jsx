@@ -6,7 +6,7 @@ const BPositive = () => {
 
     const [getBPositive, setGetBPositive] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/getBPositive")
+        fetch("https://agile-taiga-79684.herokuapp.com/getBPositive")
             .then(res => res.json())
             .then(data => {
                 console.log(data)

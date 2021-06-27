@@ -19,7 +19,7 @@ const BNegative = () => {
         formData.append('address', BNegative.address);
         formData.append('group', BNegative.group);
         formData.append('occupation', BNegative.occupation);
-        fetch("http://localhost:5000/addBNegative", {
+        fetch("https://agile-taiga-79684.herokuapp.com/addBNegative", {
             method: "POST",
             body: formData,
         })

@@ -6,7 +6,7 @@ const APositiveData = () => {
 
     const [getAPositive, setGetAPositive] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/getAPositive")
+        fetch("https://agile-taiga-79684.herokuapp.com/getAPositive")
             .then(res => res.json())
             .then(data => {
                 console.log(data)

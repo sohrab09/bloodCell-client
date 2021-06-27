@@ -19,7 +19,7 @@ const ABPositive = () => {
         formData.append('address', ABPositive.address);
         formData.append('group', ABPositive.group);
         formData.append('occupation', ABPositive.occupation)
-        fetch("http://localhost:5000/addABPositive", {
+        fetch("https://agile-taiga-79684.herokuapp.com/addABPositive", {
             method: "POST",
             body: formData,
         })

@@ -19,7 +19,7 @@ const OPositive = () => {
         formData.append('address', OPositive.address);
         formData.append('group', OPositive.group);
         formData.append('occupation', OPositive.occupation)
-        fetch("http://localhost:5000/addOPositive", {
+        fetch("https://agile-taiga-79684.herokuapp.com/addOPositive", {
             method: "POST",
             body: formData,
         })
