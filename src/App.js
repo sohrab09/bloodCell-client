@@ -24,6 +24,7 @@ import BNegativeData from './components/Show Data/BNegativeData';
 import OPositiveData from './components/Show Data/OPositiveData';
 import ONegativeData from './components/Show Data/ONegativeData';
 import ABPositiveData from './components/Show Data/ABPositiveData';
+import ABNegativeData from './components/Show Data/ABNegativeData';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/getOPositive"> <OPositiveData /> </Route>
           <Route path="/getONegative"> <ONegativeData /> </Route>
           <Route path="/getABPositive"> <ABPositiveData /> </Route>
+          <Route path="/getABNegative"> <ABNegativeData /> </Route>
 
         </Switch>
       </Router>
